@@ -1,0 +1,196 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  background-color: #008080;
+  font-family: "Courier New", Courier, monospace;
+  color: #000000;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  background-color: #c0c0c0;
+  border: 3px solid #ffffff;
+  border-right-color: #000000;
+  border-bottom-color: #000000;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+header h1 {
+  font-size: 24px;
+  letter-spacing: -1px;
+  margin-bottom: 6px;
+  color: #000080;
+}
+
+header p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.barra-navegacao {
+  max-width: 780px;
+  margin: 0 auto 16px auto;
+}
+
+.barra-navegacao ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.barra-navegacao a {
+  display: block;
+  background-color: #c0c0c0;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  text-align: center;
+}
+
+.barra-navegacao a:hover {
+  background-color: #000080;
+  color: #ffffff;
+}
+
+article {
+  background-color: #dcdcdc;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 2px inset #ffffff;
+  text-align: center;
+}
+
+article h2 {
+  font-size: 18px;
+  color: #000080;
+  margin-bottom: 4px;
+}
+
+.meta {
+  font-size: 12px;
+  color: #555555;
+  display: block;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+figure {
+  margin: 12px 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid #000000;
+  background-color: #000000;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: 12px;
+  margin-top: 4px;
+  font-style: italic;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+article p:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 12px 0;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.nota-fatec {
+  font-size: 11px;
+  color: #dcdcdc;
+  margin-top: 4px;
+}
+
+input[type="text"],
+input[type="tel"],
+select {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  padding: 6px;
+  margin-top: 4px;
+  border: 2px inset #ffffff;
+  background-color: #ffffff;
+  max-width: 280px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 16px;
+  background-color: #c0c0c0;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+input[type="submit"]:hover {
+  background-color: #000080;
+  color: #ffffff;
+}
+
+.btn-topo {
+  display: inline-block;
+  background-color: #c0c0c0;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 6px 14px;
+  margin: 10px auto 20px auto;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  text-align: center;
+}
+
+.btn-topo:hover {
+  background-color: #000080;
+  color: #ffffff;
+}
