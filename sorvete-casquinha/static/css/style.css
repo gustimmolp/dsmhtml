@@ -1,0 +1,75 @@
+/*--
+Descricao: Exercícios da Aula 11 - Introdução básica ao HTML e CSS
+nome_arquivo: style.css
+nome_exercicio: Aula 11 - Tabelas e Dados Tabulados
+nome_aluno: Cleiton Carlos Silveira de Arruda
+email_aluno: cleiton.arruda@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+--*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    width: 600px;
+    margin: 20px auto;
+}
+
+#cabecalho {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+#cabecalho h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#cabecalho p {
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+table, th, td {
+    border: 1px solid #000000;
+}
+
+th {
+    background-color: #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #cccccc;
+    display: block;
+    margin: 0px auto;
+}
