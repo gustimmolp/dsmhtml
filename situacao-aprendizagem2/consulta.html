@@ -1,0 +1,98 @@
+<!--
+Descricao: Situação de Aprendizagem 02
+nome_arquivo: consulta.html
+nome_exercicio: Situação de Aprendizagem 01
+nome_aluno: Cleiton Carlos Silveira de Arruda
+email_aluno: cleiton.arruda@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+-->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Consulta | Nexo</title>
+    <link rel="stylesheet" href="static/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/tailwind.css">
+    <link rel="stylesheet" href="static/css/nexo.css">
+    <script src="static/js/portal.js" defer></script>
+</head>
+<body>
+    <header class="portal-header">
+        <div class="container portal-bar">
+            <a class="brand" href="perfil.html"><span class="brand-mark" aria-hidden="true">N</span><span>Nexo</span></a>
+            <nav class="tw:flex tw:gap-2 portal-nav" aria-label="Navegação principal">
+                <a class="portal-link" href="perfil.html">Perfil</a>
+                <a class="portal-link" href="consulta.html" aria-current="page">Consulta</a>
+            </nav>
+            <a class="portal-link sign-out" href="index.html" data-sign-out>Sair</a>
+        </div>
+    </header>
+    <main class="container portal-content">
+        <section class="profile-hero directory-hero" aria-labelledby="directory-title">
+            <div>
+                <h1 id="directory-title">Diretório da equipe</h1>
+                <p>Encontre colaboradores por nome, setor ou cargo.</p>
+            </div>
+        </section>
+        <section class="card portal-card directory-card" aria-labelledby="directory-list">
+            <div class="directory-tools">
+                <h2 id="directory-list">Colaboradores</h2>
+                <div class="directory-filters">
+                    <div>
+                        <label class="form-label" for="search">Pesquisar</label>
+                        <input class="form-control" id="search" type="search" placeholder="Ex.: Marina ou designer">
+                    </div>
+                    <div>
+                        <label class="form-label" for="sector">Setor</label>
+                        <select class="form-select" id="sector">
+                            <option value="">Todos os setores</option>
+                            <option>Design</option>
+                            <option>Operações</option>
+                            <option>Tecnologia</option>
+                        </select>
+                    </div>
+                </div>
+                <p class="result-count" id="result-count" role="status">6 colaboradores</p>
+            </div>
+            <div class="table-responsive" tabindex="0" role="region" aria-label="Tabela de colaboradores">
+                <table class="table table-hover directory-table">
+                    <thead>
+                        <tr><th scope="col">Nome</th><th scope="col">Setor</th><th scope="col">Cargo</th></tr>
+                    </thead>
+                    <tbody id="directory">
+                        <tr>
+                            <th scope="row"><span class="directory-person"><span class="directory-avatar" aria-hidden="true">MC</span><span class="directory-name">Marina Costa</span></span></th>
+                            <td><span class="directory-sector">Design</span></td><td>Designer de produto</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><span class="directory-person"><span class="directory-avatar" aria-hidden="true">LR</span><span class="directory-name">Lucas Ribeiro</span></span></th>
+                            <td><span class="directory-sector">Tecnologia</span></td><td>Desenvolvedor</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><span class="directory-person"><span class="directory-avatar" aria-hidden="true">AF</span><span class="directory-name">Ana Ferreira</span></span></th>
+                            <td><span class="directory-sector">Operações</span></td><td>Coordenadora</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><span class="directory-person"><span class="directory-avatar" aria-hidden="true">JT</span><span class="directory-name">Júlia Teixeira</span></span></th>
+                            <td><span class="directory-sector">Design</span></td><td>Pesquisadora de UX</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><span class="directory-person"><span class="directory-avatar" aria-hidden="true">RP</span><span class="directory-name">Rafael Pereira</span></span></th>
+                            <td><span class="directory-sector">Tecnologia</span></td><td>Analista de sistemas</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><span class="directory-person"><span class="directory-avatar" aria-hidden="true">BC</span><span class="directory-name">Beatriz Campos</span></span></th>
+                            <td><span class="directory-sector">Operações</span></td><td>Analista de operações</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="empty-results" id="empty-results" hidden>
+                <p>Nenhum colaborador encontrado.</p>
+                <button class="btn directory-reset" id="reset-filters" type="button">Limpar filtros</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

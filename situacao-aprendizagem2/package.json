@@ -1,0 +1,11 @@
+{
+  "name": "nexo-sa2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "node scripts/build-css.cjs"
+  },
+  "devDependencies": {
+    "tailwindcss": "4.2.2"
+  }
+}

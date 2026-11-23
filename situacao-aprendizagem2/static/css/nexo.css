@@ -1,0 +1,479 @@
+/*
+Descricao: Situação de Aprendizagem 02
+nome_arquivo: nexo.css
+nome_exercicio: Situação de Aprendizagem 01
+nome_aluno: Cleiton Carlos Silveira de Arruda
+email_aluno: cleiton.arruda@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+*/
+:root {
+    --nexo-navy: #11283d;
+    --nexo-teal: #087d72;
+    --nexo-muted: #4a6274;
+    --nexo-pale: #f1f6f7;
+    --nexo-line: #d7e3e8;
+    --nexo-mint: #d9f0ec;
+    --nexo-shadow: 0 .5rem 1.75rem rgb(17 40 61 / 6%);
+}
+
+body {
+    margin: 0;
+    color: var(--nexo-navy);
+    background: radial-gradient(ellipse at 90% 0, #e2f3ee 0, transparent 36rem), var(--nexo-pale);
+    font-family: Inter, system-ui, sans-serif;
+}
+
+h1 {
+    margin: 0 0 .55rem;
+    font-size: clamp(1.85rem, 4vw, 2.4rem);
+    font-weight: 760;
+    letter-spacing: -.035em;
+}
+
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: .65rem;
+    color: inherit;
+    font-size: 1.55rem;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.brand-mark {
+    display: grid;
+    width: 2.125rem;
+    height: 2.125rem;
+    place-items: center;
+    border-radius: .55rem;
+    color: white;
+    background: var(--nexo-teal);
+    font-size: 1.125rem;
+}
+
+.login-layout {
+    min-height: 100svh;
+    background: white;
+}
+
+.login-panel {
+    display: none;
+}
+
+.login-content {
+    padding: 1.5rem;
+}
+
+.login-box {
+    max-width: 26rem;
+    margin: 4.5rem auto 0;
+}
+
+.intro, .demo-note, .profile-role, .profile-details dt, .result-count {
+    color: var(--nexo-muted);
+}
+
+.intro {
+    margin-bottom: 1.75rem;
+}
+
+.form-label {
+    font-weight: 650;
+}
+
+.form-control {
+    min-height: 3rem;
+    border-color: #8ba3ae;
+    border-radius: .55rem;
+}
+
+.form-control:focus {
+    border-color: var(--nexo-teal);
+    box-shadow: 0 0 0 .2rem rgb(8 125 114 / 18%);
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #087d72;
+    --bs-btn-border-color: #087d72;
+    --bs-btn-hover-bg: #056759;
+    --bs-btn-hover-border-color: #056759;
+    --bs-btn-active-bg: #05584e;
+    --bs-btn-active-border-color: #05584e;
+    --bs-btn-focus-shadow-rgb: 8, 125, 114;
+    min-height: 3rem;
+    border-radius: .55rem;
+    font-weight: 700;
+}
+
+.demo-note, .result-count {
+    margin: 1.25rem 0 0;
+    font-size: .875rem;
+}
+
+.demo-note {
+    padding: .8rem 1rem;
+    border: 1px solid var(--nexo-line);
+    border-radius: .75rem;
+    background: var(--nexo-pale);
+    overflow-wrap: anywhere;
+}
+
+.login-error {
+    margin: 0;
+    color: #a12231;
+}
+
+.portal-header {
+    background: white;
+    border-bottom: 1px solid var(--nexo-line);
+    box-shadow: 0 .2rem .85rem rgb(17 40 61 / 4%);
+}
+
+.portal-bar {
+    display: flex;
+    min-height: 4.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5rem 1.75rem;
+    padding-block: .75rem;
+}
+
+.portal-link {
+    padding: .45rem .75rem;
+    border-radius: .5rem;
+    color: var(--nexo-muted);
+    font-weight: 650;
+    text-decoration: none;
+}
+
+.portal-link:hover, .portal-link[aria-current] {
+    color: #056759;
+    background: var(--nexo-mint);
+}
+
+.sign-out {
+    margin-left: auto;
+}
+
+.portal-content {
+    max-width: 65rem;
+    padding-block: clamp(2rem, 6vw, 4rem);
+}
+
+.portal-card {
+    padding: clamp(1rem, 4vw, 1.75rem);
+    border-color: var(--nexo-line);
+    border-radius: 1rem;
+    box-shadow: var(--nexo-shadow);
+}
+
+.profile-hero {
+    display: flex;
+    align-items: end;
+    min-height: 12rem;
+    padding: clamp(1.25rem, 5vw, 2.5rem);
+    border-radius: 1.25rem;
+    color: white;
+    background:
+        repeating-radial-gradient(circle at 88% -30%, transparent 0 1.6rem, rgb(182 241 227 / 13%) 1.625rem 1.7rem),
+        linear-gradient(115deg, var(--nexo-navy) 28%, #125752);
+    box-shadow: var(--nexo-shadow);
+}
+
+.profile-hero .avatar {
+    display: grid;
+    width: clamp(3.75rem, 10vw, 5rem);
+    aspect-ratio: 1;
+    flex: none;
+    place-items: center;
+    border: 1px solid rgb(255 255 255 / 50%);
+    border-radius: 1.15rem;
+    color: #13433d;
+    background: linear-gradient(145deg, #effffb, #a7e8d6);
+    font-size: clamp(1.15rem, 4vw, 1.65rem);
+    font-weight: 800;
+}
+
+.profile-name {
+    margin: 0 0 .2rem;
+    font-size: clamp(1.45rem, 4vw, 2.35rem);
+    font-weight: 760;
+    letter-spacing: -.025em;
+}
+
+.profile-hero .profile-role {
+    color: white;
+}
+
+.profile-location {
+    margin: .25rem 0 0;
+    color: #b6f1e3;
+    font-size: .875rem;
+}
+
+.profile-grid {
+    margin-top: .15rem;
+}
+
+.portal-card h2 {
+    margin: 0 0 .15rem;
+    font-size: 1.25rem;
+    font-weight: 750;
+}
+
+.profile-role, .profile-details dd {
+    margin: 0;
+}
+
+.profile-details {
+    margin: 1.25rem 0 0;
+}
+
+.profile-details > div {
+    min-width: 0;
+    padding-top: .65rem;
+    border-top: 1px solid var(--nexo-line);
+}
+
+.profile-details dt {
+    margin-bottom: .2rem;
+    font-size: .875rem;
+}
+
+.profile-details dd {
+    overflow-wrap: anywhere;
+}
+
+.profile-details a, .profile-directory {
+    color: #056759;
+    text-underline-offset: .2em;
+}
+
+.profile-bio {
+    max-width: 66ch;
+    margin: .85rem 0;
+    color: var(--nexo-muted);
+    line-height: 1.65;
+}
+
+.profile-directory {
+    align-self: flex-start;
+    font-weight: 650;
+}
+
+.portal-content a:focus-visible, .portal-header a:focus-visible {
+    outline: .15rem solid var(--nexo-teal);
+    outline-offset: .2rem;
+}
+
+.directory-hero {
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.directory-hero p {
+    margin: 0;
+    color: #d4f5ed;
+}
+
+.directory-card {
+    overflow: hidden;
+    padding: 0;
+}
+
+.directory-tools {
+    padding: clamp(1rem, 4vw, 1.75rem);
+}
+
+.directory-filters {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(11rem, .42fr);
+    gap: .85rem;
+    margin-top: 1.1rem;
+}
+
+.directory-filters .form-select {
+    min-height: 3rem;
+    border-color: #8ba3ae;
+    border-radius: .55rem;
+}
+
+.directory-filters .form-select:focus {
+    border-color: var(--nexo-teal);
+    box-shadow: 0 0 0 .2rem rgb(8 125 114 / 18%);
+}
+
+.directory-card .table-responsive:focus-visible {
+    outline: .15rem solid var(--nexo-teal);
+    outline-offset: -.2rem;
+}
+
+.directory-table {
+    margin: 0;
+    --bs-table-hover-bg: #eaf6f2;
+}
+
+.directory-table thead th {
+    background: var(--nexo-pale);
+    color: var(--nexo-muted);
+    font-size: .875rem;
+}
+
+.directory-table th, .directory-table td {
+    padding: .85rem clamp(.55rem, 2.5vw, 1.75rem);
+    color: var(--nexo-navy);
+    vertical-align: middle;
+}
+
+.directory-table tbody tr:last-child > * {
+    border-bottom-width: 0;
+}
+
+.directory-person {
+    display: flex;
+    align-items: center;
+    gap: .65rem;
+    font-weight: 650;
+}
+
+.directory-avatar {
+    display: grid;
+    width: 2.1rem;
+    flex: none;
+    aspect-ratio: 1;
+    place-items: center;
+    border-radius: .65rem;
+    background: var(--nexo-mint);
+    color: #056759;
+    font-size: .75rem;
+    font-weight: 750;
+}
+
+.directory-sector {
+    display: inline-block;
+    padding: .2rem .5rem;
+    border-radius: .4rem;
+    background: var(--nexo-pale);
+    color: #285267;
+    font-size: .8125rem;
+    font-weight: 650;
+}
+
+.empty-results {
+    padding: 1.65rem 1rem;
+    border-top: 1px solid var(--nexo-line);
+    color: var(--nexo-muted);
+    text-align: center;
+}
+
+.directory-reset {
+    --bs-btn-color: #056759;
+    --bs-btn-border-color: #8ba3ae;
+    --bs-btn-hover-color: #056759;
+    --bs-btn-hover-bg: var(--nexo-mint);
+    --bs-btn-hover-border-color: #8ba3ae;
+    --bs-btn-focus-shadow-rgb: 8, 125, 114;
+}
+
+@media (max-width: 575.98px) {
+    .portal-nav {
+        order: 1;
+        flex-basis: 100%;
+    }
+
+    .directory-table {
+        font-size: .875rem;
+    }
+
+    .directory-filters {
+        grid-template-columns: 1fr;
+    }
+
+    .directory-avatar {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .work-details {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .login-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 46fr) minmax(0, 54fr);
+        padding: 1rem;
+    }
+
+    .login-panel {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        min-height: 40rem;
+        padding: 2.5rem;
+        border-radius: 1.6rem;
+        color: #b6f1e3;
+        background: linear-gradient(145deg, var(--nexo-navy) 40%, #125752);
+    }
+
+    .login-panel .brand {
+        color: white;
+    }
+
+    .login-panel .brand-mark {
+        color: var(--nexo-navy);
+        background: #b6f1e3;
+    }
+
+    .panel-title {
+        position: relative;
+        margin: 4.25rem 0 .65rem;
+        color: white;
+        font-size: clamp(1.8rem, 3vw, 2.75rem);
+        font-weight: 760;
+        letter-spacing: -.035em;
+    }
+
+    .orbit {
+        position: absolute;
+        right: 4%;
+        bottom: 5%;
+        width: min(84%, 26rem);
+        aspect-ratio: 1;
+        border: 2px solid #356777;
+        border-radius: 50%;
+    }
+
+    .orbit i {
+        position: absolute;
+        inset: 11%;
+        border: inherit;
+        border-radius: inherit;
+    }
+
+    .orbit i:nth-child(2) { inset: 22%; }
+    .orbit i:nth-child(3) { inset: 33%; }
+    .orbit i:nth-child(4) {
+        inset: 20% auto auto 50%;
+        width: .8rem;
+        height: .8rem;
+        border: 0;
+        background: #b6f1e3;
+    }
+
+    .login-content {
+        display: grid;
+        align-items: center;
+        padding: clamp(2rem, 6vw, 6rem);
+    }
+
+    .login-box {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .mobile-brand {
+        display: none;
+    }
+}

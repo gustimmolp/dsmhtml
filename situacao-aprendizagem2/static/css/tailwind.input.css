@@ -1,0 +1,13 @@
+/*
+Descricao: Situação de Aprendizagem 02
+nome_arquivo: tailwind.input.css
+nome_exercicio: Situação de Aprendizagem 01
+nome_aluno: Cleiton Carlos Silveira de Arruda
+email_aluno: cleiton.arruda@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+*/
+@theme prefix(tw) {
+    --spacing: .25rem;
+}
+
+@tailwind utilities;

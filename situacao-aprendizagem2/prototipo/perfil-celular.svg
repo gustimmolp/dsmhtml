@@ -1,0 +1,45 @@
+<!--
+Descricao: Situação de Aprendizagem 02
+nome_arquivo: perfil-celular.svg
+nome_exercicio: Situação de Aprendizagem 01
+nome_aluno: Cleiton Carlos Silveira de Arruda
+email_aluno: cleiton.arruda@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" role="group" aria-labelledby="titulo"><title id="titulo">Nexo · Perfil · celular</title>
+<rect x="0" y="0" width="390" height="844" rx="0" fill="#F1F6F7" stroke="none"/>
+<rect x="0" y="0" width="390" height="72" rx="0" fill="white" stroke="#D7E3E8"/>
+<rect x="24" y="21" width="32" height="32" rx="9" fill="#087D72" stroke="none"/>
+<text x="33" y="44" font-family="Inter, system-ui, sans-serif" font-size="19" font-weight="800" fill="white">N</text>
+<text x="67" y="45" font-family="Inter, system-ui, sans-serif" font-size="25" font-weight="800" fill="#11283D">Nexo</text>
+<rect x="0" y="72" width="390" height="56" rx="0" fill="white" stroke="#D7E3E8"/>
+<a href="perfil-celular.svg">
+<rect x="16" y="82" width="92" height="34" rx="8" fill="#D9F0EC" stroke="none"/>
+<text x="27" y="104" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="650" fill="#087D72">Perfil</text>
+</a>
+<a href="consulta-celular.svg">
+<rect x="116" y="82" width="92" height="34" rx="8" fill="white" stroke="none"/>
+<text x="127" y="104" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="650" fill="#4A6274">Consulta</text>
+</a>
+<a href="login-celular.svg">
+<rect x="289" y="24" width="92" height="34" rx="8" fill="white" stroke="none"/>
+<text x="300" y="46" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="650" fill="#4A6274">Sair</text>
+</a>
+<text x="20" y="191" font-family="Inter, system-ui, sans-serif" font-size="31" font-weight="760" fill="#11283D">Meu perfil</text>
+<text x="20" y="225" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#4A6274">Informações da sua conta.</text>
+<rect x="20" y="253" width="350" height="342" rx="16" fill="white" stroke="#D7E3E8"/>
+<rect x="40" y="275" width="56" height="56" rx="28" fill="#D9F0EC" stroke="none"/>
+<text x="52" y="310" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="750" fill="#087D72">MC</text>
+<text x="110" y="299" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="750" fill="#11283D">Marina Costa</text>
+<text x="110" y="322" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#4A6274">Designer de produto</text>
+<text x="40" y="371" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="650" fill="#4A6274">E-mail</text>
+<text x="40" y="395" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="400" fill="#11283D">marina@nexo.exemplo</text>
+<text x="40" y="437" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="650" fill="#4A6274">Departamento</text>
+<text x="40" y="461" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="400" fill="#11283D">Design</text>
+<text x="40" y="503" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="650" fill="#4A6274">Localidade</text>
+<text x="40" y="527" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="400" fill="#11283D">São Paulo, SP</text>
+<a href="perfil-desktop.svg">
+<rect x="237" y="798" width="137" height="32" rx="8" fill="#D9F0EC" stroke="none"/>
+<text x="248" y="819" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="650" fill="#087D72">Ver em desktop</text>
+</a>
+</svg>

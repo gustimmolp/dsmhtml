@@ -1,0 +1,41 @@
+<!--
+Descricao: Situação de Aprendizagem 02
+nome_arquivo: login-desktop.svg
+nome_exercicio: Situação de Aprendizagem 01
+nome_aluno: Cleiton Carlos Silveira de Arruda
+email_aluno: cleiton.arruda@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="group" aria-labelledby="titulo"><title id="titulo">Nexo · Login · desktop</title>
+<rect x="0" y="0" width="1200" height="780" rx="0" fill="#F1F6F7" stroke="none"/>
+<rect x="0" y="0" width="1200" height="780" rx="0" fill="white" stroke="none"/>
+<rect x="16" y="16" width="530" height="748" rx="26" fill="#11283D" stroke="none"/>
+<circle cx="322" cy="534" r="72" fill="none" stroke="#356777" stroke-width="2"/>
+<circle cx="322" cy="534" r="116" fill="none" stroke="#356777" stroke-width="2"/>
+<circle cx="322" cy="534" r="160" fill="none" stroke="#356777" stroke-width="2"/>
+<circle cx="322" cy="534" r="204" fill="none" stroke="#356777" stroke-width="2"/>
+<circle cx="322" cy="418" r="7" fill="#B6F1E3"/>
+<circle cx="162" cy="534" r="7" fill="#B6F1E3"/>
+<circle cx="439" cy="646" r="7" fill="#B6F1E3"/>
+<rect x="56" y="56" width="32" height="32" rx="9" fill="#B6F1E3" stroke="none"/>
+<text x="65" y="79" font-family="Inter, system-ui, sans-serif" font-size="19" font-weight="800" fill="#11283D">N</text>
+<text x="99" y="80" font-family="Inter, system-ui, sans-serif" font-size="25" font-weight="800" fill="white">Nexo</text>
+<text x="56" y="188" font-family="Inter, system-ui, sans-serif" font-size="34" font-weight="750" fill="white">Seu espaço de trabalho</text>
+<text x="56" y="228" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="400" fill="#B6F1E3">Perfil e diretório da equipe em um só lugar.</text>
+<text x="660" y="223" font-family="Inter, system-ui, sans-serif" font-size="34" font-weight="750" fill="#11283D">Acesse sua conta</text>
+<text x="660" y="257" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="400" fill="#4A6274">Entre para acessar o portal interno.</text>
+<text x="660" y="303" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="650" fill="#11283D">E-mail</text>
+<rect x="660" y="315" width="420" height="48" rx="8" fill="white" stroke="#D7E3E8"/>
+<text x="674" y="345" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="400" fill="#4A6274">marina@nexo.exemplo</text>
+<text x="660" y="395" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="650" fill="#11283D">Senha</text>
+<rect x="660" y="407" width="420" height="48" rx="8" fill="white" stroke="#D7E3E8"/>
+<text x="674" y="437" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="400" fill="#4A6274">••••••••</text>
+<a href="perfil-desktop.svg">
+<rect x="660" y="475" width="420" height="50" rx="8" fill="#087D72" stroke="none"/>
+<text x="848.0" y="507" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="white">Entrar</text>
+</a>
+<a href="login-celular.svg">
+<rect x="1025" y="734" width="137" height="32" rx="8" fill="#D9F0EC" stroke="none"/>
+<text x="1036" y="755" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="650" fill="#087D72">Ver em celular</text>
+</a>
+</svg>

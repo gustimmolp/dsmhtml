@@ -1,0 +1,78 @@
+<!--
+Descricao: Situação de Aprendizagem 02
+nome_arquivo: perfil.html
+nome_exercicio: Situação de Aprendizagem 01
+nome_aluno: Cleiton Carlos Silveira de Arruda
+email_aluno: cleiton.arruda@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+-->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Perfil | Nexo</title>
+    <link rel="stylesheet" href="static/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/tailwind.css">
+    <link rel="stylesheet" href="static/css/nexo.css">
+    <script src="static/js/portal.js" defer></script>
+</head>
+<body>
+    <header class="portal-header">
+        <div class="container portal-bar">
+            <a class="brand" href="perfil.html"><span class="brand-mark" aria-hidden="true">N</span><span>Nexo</span></a>
+            <nav class="tw:flex tw:gap-2 portal-nav" aria-label="Navegação principal">
+                <a class="portal-link" href="perfil.html" aria-current="page">Perfil</a>
+                <a class="portal-link" href="consulta.html">Consulta</a>
+            </nav>
+            <a class="portal-link sign-out" href="index.html" data-sign-out>Sair</a>
+        </div>
+    </header>
+    <main class="container portal-content">
+        <h1>Meu perfil</h1>
+        <p class="intro">Seus dados profissionais e canais de contato.</p>
+        <section class="profile-hero" aria-labelledby="profile-name">
+            <div class="tw:flex tw:items-center tw:gap-4">
+                <span class="avatar" aria-hidden="true">MC</span>
+                <div>
+                    <h2 class="profile-name" id="profile-name">Marina Costa</h2>
+                    <p class="profile-role">Designer de produto</p>
+                    <p class="profile-location">Design · São Paulo, SP</p>
+                </div>
+            </div>
+        </section>
+        <div class="row g-3 profile-grid">
+            <div class="col-12 col-md-7">
+                <section class="card portal-card h-100" aria-labelledby="work-title">
+                    <h2 id="work-title">Informações profissionais</h2>
+                    <dl class="profile-details work-details tw:grid tw:gap-4">
+                        <div><dt>Departamento</dt><dd>Design</dd></div>
+                        <div><dt>Equipe</dt><dd>Experiência de Produto</dd></div>
+                        <div><dt>Localidade</dt><dd>São Paulo, SP</dd></div>
+                        <div><dt>Modelo de trabalho</dt><dd>Híbrido</dd></div>
+                        <div><dt>Data de ingresso</dt><dd><time datetime="2023-03-13">13 de março de 2023</time></dd></div>
+                        <div><dt>Matrícula</dt><dd>NEX-0142</dd></div>
+                    </dl>
+                </section>
+            </div>
+            <div class="col-12 col-md-5">
+                <section class="card portal-card h-100" aria-labelledby="contact-title">
+                    <h2 id="contact-title">Contato corporativo</h2>
+                    <dl class="profile-details tw:grid tw:gap-4">
+                        <div><dt>E-mail</dt><dd><a href="mailto:marina@nexo.exemplo">marina@nexo.exemplo</a></dd></div>
+                        <div><dt>Ramal</dt><dd>214</dd></div>
+                        <div><dt>Horário de trabalho</dt><dd>Segunda a sexta, das 9h às 18h</dd></div>
+                    </dl>
+                </section>
+            </div>
+            <div class="col-12">
+                <section class="card portal-card" aria-labelledby="about-title">
+                    <h2 id="about-title">Sobre Marina</h2>
+                    <p class="profile-bio">Marina pesquisa como as equipes usam as ferramentas internas e transforma essas observações em fluxos, protótipos e melhorias no sistema de design.</p>
+                    <a class="profile-directory" href="consulta.html">Consultar diretório da equipe</a>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

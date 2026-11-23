@@ -1,0 +1,27 @@
+/*
+Descricao: Situação de Aprendizagem 02
+nome_arquivo: tailwind.css
+nome_exercicio: Situação de Aprendizagem 01
+nome_aluno: Cleiton Carlos Silveira de Arruda
+email_aluno: cleiton.arruda@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+*/
+/*! tailwindcss v4.2.2 | MIT License | https://tailwindcss.com */
+:root, :host {
+  --tw-spacing: .25rem;
+}
+.tw\:flex {
+  display: flex;
+}
+.tw\:grid {
+  display: grid;
+}
+.tw\:items-center {
+  align-items: center;
+}
+.tw\:gap-2 {
+  gap: calc(var(--tw-spacing) * 2);
+}
+.tw\:gap-4 {
+  gap: calc(var(--tw-spacing) * 4);
+}

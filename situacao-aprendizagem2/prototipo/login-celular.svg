@@ -1,0 +1,31 @@
+<!--
+Descricao: Situação de Aprendizagem 02
+nome_arquivo: login-celular.svg
+nome_exercicio: Situação de Aprendizagem 01
+nome_aluno: Cleiton Carlos Silveira de Arruda
+email_aluno: cleiton.arruda@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" role="group" aria-labelledby="titulo"><title id="titulo">Nexo · Login · celular</title>
+<rect x="0" y="0" width="390" height="844" rx="0" fill="#F1F6F7" stroke="none"/>
+<rect x="0" y="0" width="390" height="844" rx="0" fill="white" stroke="none"/>
+<rect x="24" y="41" width="32" height="32" rx="9" fill="#087D72" stroke="none"/>
+<text x="33" y="64" font-family="Inter, system-ui, sans-serif" font-size="19" font-weight="800" fill="white">N</text>
+<text x="67" y="65" font-family="Inter, system-ui, sans-serif" font-size="25" font-weight="800" fill="#11283D">Nexo</text>
+<text x="24" y="172" font-family="Inter, system-ui, sans-serif" font-size="34" font-weight="750" fill="#11283D">Acesse sua conta</text>
+<text x="24" y="206" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="400" fill="#4A6274">Entre para acessar o portal interno.</text>
+<text x="24" y="252" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="650" fill="#11283D">E-mail</text>
+<rect x="24" y="264" width="342" height="48" rx="8" fill="white" stroke="#D7E3E8"/>
+<text x="38" y="294" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="400" fill="#4A6274">marina@nexo.exemplo</text>
+<text x="24" y="344" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="650" fill="#11283D">Senha</text>
+<rect x="24" y="356" width="342" height="48" rx="8" fill="white" stroke="#D7E3E8"/>
+<text x="38" y="386" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="400" fill="#4A6274">••••••••</text>
+<a href="perfil-celular.svg">
+<rect x="24" y="424" width="342" height="50" rx="8" fill="#087D72" stroke="none"/>
+<text x="173.0" y="456" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="white">Entrar</text>
+</a>
+<a href="login-desktop.svg">
+<rect x="237" y="798" width="137" height="32" rx="8" fill="#D9F0EC" stroke="none"/>
+<text x="248" y="819" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="650" fill="#087D72">Ver em desktop</text>
+</a>
+</svg>

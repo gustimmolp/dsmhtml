@@ -1,0 +1,51 @@
+<!--
+Descricao: Situação de Aprendizagem 02
+nome_arquivo: index.html
+nome_exercicio: Situação de Aprendizagem 01
+nome_aluno: Cleiton Carlos Silveira de Arruda
+email_aluno: cleiton.arruda@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+-->
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login | Nexo</title>
+    <link rel="stylesheet" href="static/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/tailwind.css">
+    <link rel="stylesheet" href="static/css/nexo.css">
+    <script src="static/js/login.js" defer></script>
+</head>
+<body>
+    <main class="login-layout">
+        <aside class="login-panel">
+            <div class="brand"><span class="brand-mark" aria-hidden="true">N</span><span>Nexo</span></div>
+            <p class="panel-title">Seu espaço de trabalho</p>
+            <p>Perfil e diretório da equipe em um só lugar.</p>
+            <div class="orbit" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+        </aside>
+        <section class="login-content" aria-labelledby="login-title">
+            <div class="brand mobile-brand"><span class="brand-mark" aria-hidden="true">N</span><span>Nexo</span></div>
+            <div class="login-box">
+                <h1 id="login-title">Acesse sua conta</h1>
+                <p class="intro">Entre para acessar o portal interno.</p>
+                <form id="login-form" class="tw:grid tw:gap-4">
+                    <div>
+                        <label class="form-label" for="email">E-mail</label>
+                        <input class="form-control" id="email" type="email" autocomplete="username" value="marina@nexo.exemplo" required>
+                    </div>
+                    <div>
+                        <label class="form-label" for="password">Senha</label>
+                        <input class="form-control" id="password" type="password" autocomplete="current-password" value="nexo2026" required>
+                    </div>
+                    <p class="login-error" id="login-error" role="alert" hidden>E-mail ou senha incorretos.</p>
+                    <button class="btn btn-primary" type="submit">Entrar</button>
+                </form>
+                <p class="demo-note">As credenciais de demonstração já estão preenchidas.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

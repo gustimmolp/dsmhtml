@@ -1,0 +1,7 @@
+# Descricao: Situação de Aprendizagem 02
+# nome_arquivo: .gitignore
+# nome_exercicio: Situação de Aprendizagem 01
+# nome_aluno: Cleiton Carlos Silveira de Arruda
+# email_aluno: cleiton.arruda@aluno.cps.sp.gov.br
+# turma: WEBI-ISW028-A
+node_modules/
