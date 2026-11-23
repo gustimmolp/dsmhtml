@@ -1,0 +1,54 @@
+/*
+Descricao: Aula 15 - JavaScript aplicado a Formulários
+nome_arquivo: tailwind.css
+nome_exercicio: Aula 15 - JavaScript aplicado a Formulários
+nome_aluno: Cleiton Carlos Silveira de Arruda
+email_aluno: cleiton.arruda@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+*/
+@layer theme, utilities;
+@layer theme {
+  :root, :host {
+    --tw-spacing: 0.25rem;
+  }
+}
+@layer utilities {
+  .tw\:flex {
+    display: flex;
+  }
+  .tw\:grid {
+    display: grid;
+  }
+  .tw\:min-w-0 {
+    min-width: calc(var(--tw-spacing) * 0);
+  }
+  .tw\:flex-wrap {
+    flex-wrap: wrap;
+  }
+  .tw\:items-center {
+    align-items: center;
+  }
+  .tw\:items-start {
+    align-items: flex-start;
+  }
+  .tw\:justify-between {
+    justify-content: space-between;
+  }
+  .tw\:gap-2 {
+    gap: calc(var(--tw-spacing) * 2);
+  }
+  .tw\:gap-3 {
+    gap: calc(var(--tw-spacing) * 3);
+  }
+  .tw\:gap-4 {
+    gap: calc(var(--tw-spacing) * 4);
+  }
+  .tw\:p-5 {
+    padding: calc(var(--tw-spacing) * 5);
+  }
+  .tw\:lg\:grid-cols-2 {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+}

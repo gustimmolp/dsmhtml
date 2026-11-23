@@ -1,0 +1,264 @@
+/*
+Descricao: Aula 15 - JavaScript aplicado a Formulários
+nome_arquivo: style.css
+nome_exercicio: Aula 15 - JavaScript aplicado a Formulários
+nome_aluno: Cleiton Carlos Silveira de Arruda
+email_aluno: cleiton.arruda@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+*/
+body {
+    --fundo: #eeeff8;
+    --painel: #fff;
+    --texto: #211d3b;
+    --destaque: #4c39a4;
+    --linha: #d7d2ea;
+    --chip: #ece7ff;
+    --erro: #a7232a;
+    --sucesso: #217044;
+    margin: 0;
+    background: var(--fundo);
+    color: var(--texto);
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+}
+
+body.dark-theme {
+    color-scheme: dark;
+    --fundo: #151324;
+    --painel: #211d36;
+    --texto: #f2efff;
+    --destaque: #c7b9ff;
+    --linha: #484061;
+    --chip: #352852;
+    --erro: #ff9a9f;
+    --sucesso: #8cdfb0;
+}
+
+h2 {
+    margin: 0 0 1rem;
+    font-size: 1.15rem;
+    color: var(--destaque);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+:focus-visible {
+    outline: 2px solid var(--destaque);
+    outline-offset: 2px;
+}
+
+p {
+    margin: 0 0 0.6rem;
+}
+
+.erro {
+    color: var(--erro);
+    font-weight: 600;
+}
+
+.sucesso {
+    color: var(--sucesso);
+    font-weight: 600;
+}
+
+pre {
+    padding: 0.75rem;
+    background: var(--fundo);
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+#habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#habilidades li {
+    max-width: 100%;
+    padding: 0.25rem 0.35rem 0.25rem 0.65rem;
+    border-radius: 1rem;
+    background: var(--fundo);
+    overflow-wrap: anywhere;
+}
+
+#habilidades button {
+    margin-left: 0.35rem;
+    padding: 0.05rem 0.45rem;
+    border-radius: 1rem;
+}
+
+.lista label:first-child {
+    margin-bottom: 0.65rem;
+}
+
+:root {
+    scroll-padding-top: 1rem;
+}
+
+.limite {
+    width: min(100% - 2rem, 78rem);
+    margin-inline: auto;
+}
+
+.topo {
+    padding: 1rem 0;
+    background: #211835;
+    color: #f7f0ff;
+}
+
+.marca, .atalho {
+    color: inherit;
+    text-underline-offset: 0.25em;
+}
+
+.marca {
+    font-family: ui-monospace, monospace;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.abertura {
+    margin-block: 1.5rem;
+    padding: clamp(1.5rem, 6vw, 4.5rem);
+    border-radius: 1.5rem;
+    color: #faf7ff;
+    background:
+        radial-gradient(ellipse at 88% 12%, #6544aa 0%, transparent 52%),
+        repeating-linear-gradient(120deg, transparent 0 28px, #ffffff0d 28px 29px),
+        #281b47;
+}
+
+.abertura h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(2.35rem, 8vw, 5.75rem);
+    font-weight: 800;
+    letter-spacing: -0.065em;
+    line-height: 0.95;
+}
+
+.abertura h1 span {
+    color: #d8c7ff;
+}
+
+.abertura p {
+    max-width: 33rem;
+    margin-bottom: 1.4rem;
+    color: #eee4fd;
+}
+
+.btn-primary {
+    --bs-btn-bg: #5140b5;
+    --bs-btn-border-color: #5140b5;
+    --bs-btn-hover-bg: #40308f;
+    --bs-btn-hover-border-color: #40308f;
+    --bs-btn-active-bg: #382979;
+    --bs-btn-active-border-color: #382979;
+}
+
+.abertura .btn {
+    --bs-btn-color: #291947;
+    --bs-btn-bg: #d8c7ff;
+    --bs-btn-border-color: #d8c7ff;
+    --bs-btn-hover-color: #291947;
+    --bs-btn-hover-bg: #eee5ff;
+    --bs-btn-hover-border-color: #eee5ff;
+}
+
+.area-exercicios {
+    display: grid;
+    gap: 1rem;
+    align-items: start;
+    padding-bottom: 2rem;
+}
+
+.indice, .painel {
+    border: 1px solid var(--linha);
+    border-radius: 1rem;
+    background: var(--painel);
+}
+
+.indice {
+    padding: 1rem;
+}
+
+.indice h2 {
+    margin-bottom: 0.5rem;
+}
+
+.indice ol {
+    counter-reset: desafio;
+}
+
+.indice .list-group-item {
+    display: flex;
+    gap: 0.65rem;
+    padding-inline: 0;
+    border-color: var(--linha);
+    background: transparent;
+    color: var(--texto);
+    counter-increment: desafio;
+}
+
+.indice .list-group-item::before {
+    content: counter(desafio, decimal-leading-zero);
+    color: var(--destaque);
+    font: 600 0.85rem/1.8 ui-monospace, monospace;
+}
+
+.indice a {
+    color: inherit;
+    text-decoration-color: var(--linha);
+    text-underline-offset: 0.2em;
+}
+
+.indice a:hover {
+    color: var(--destaque);
+    text-decoration-color: currentColor;
+}
+
+.painel:target {
+    outline: 2px solid var(--destaque);
+    outline-offset: 2px;
+}
+
+.painel h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    color: var(--texto);
+    font-weight: 700;
+}
+
+.painel h2 span {
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    background: var(--chip);
+    color: var(--destaque);
+    font: 700 0.85rem/1 ui-monospace, monospace;
+}
+
+#barra-comentario {
+    width: 0;
+    background-color: #6250ce;
+}
+
+@media (min-width: 52rem) {
+    .area-exercicios {
+        grid-template-columns: 15rem minmax(0, 1fr);
+    }
+
+    .indice {
+        position: sticky;
+        top: 1rem;
+        max-height: calc(100vh - 2rem);
+        overflow: auto;
+    }
+}
